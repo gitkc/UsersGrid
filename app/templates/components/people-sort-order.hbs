@@ -1,0 +1,6 @@
+Sort By:
+<select onchange={{action 'updateSort' value='target.value'}} class="sort-order-selector">
+{{#each sortOrder as |sortOrderItems|}}
+    <option value={{sortOrderItems}}>{{sortOrderItems}}</option>
+{{/each}}
+</select>

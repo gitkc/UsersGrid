@@ -1,7 +1,6 @@
 # users-grid
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This is a minimally styled example demonstrating filtering and ordering of information about a group of people using Ember.js.
 
 ## Prerequisites
 

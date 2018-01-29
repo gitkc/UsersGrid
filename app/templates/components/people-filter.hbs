@@ -1,0 +1,9 @@
+Category
+<div class="filterOptionsSelector">
+{{#each filterOptions as |filterItem|}}
+    <div class="category-option">
+        <input type="radio" name="category" value={{filterItem}} onchange={{action 'updateFilter' value='target.value'}}>
+        <label for={{filterItem}}>{{filterItem}}</label>
+    </div>
+{{/each}}
+</div>

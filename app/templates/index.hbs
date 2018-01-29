@@ -1,0 +1,9 @@
+{{outlet}}
+{{#people-filter model=model updateFilter='updateSelectedFilter'}}
+{{/people-filter}}
+<div class="people-listing-container">
+    {{#people-sort-order updateSort='updateSortOrder'}}
+    {{/people-sort-order}}
+    {{#people-listing model=model selectedFilter=selectedFilter sortOrderFilter=sortOrderFilter}}
+    {{/people-listing}}
+</div>

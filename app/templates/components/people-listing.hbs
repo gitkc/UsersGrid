@@ -1,0 +1,7 @@
+{{#each filteredPeopleList as |person|}}
+<div class="person-card" data-priority={{person.priority}}>
+    <h2 class="person-name">{{person.name}}</h2>
+    <div class="person-age">{{person.age}}</div>
+    <div class="person-category">{{person.category}}</div>
+</div>
+{{/each}}
